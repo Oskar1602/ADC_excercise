@@ -28,8 +28,8 @@ Einlesen eines analogen Wertes über den ADC des ATmega328P und Ausgabe über di
 Der ADC benötigt eine Taktfrequenz zwischen 50 kHz und 200 kHz für präzise Messungen.  
 Bei einem Systemtakt von 16 MHz:
 
-| Prescaler | ADC-Frequenz | Geeignet |
-|-----------|---------------|----------|
-| 128       | 125 kHz       | Ja       |
+| Prescaler | ADC-Frequenz |
+|-----------|---------------|
+| 128       | 125 kHz       |
 
 Einstellung: ADPS2 = 1, ADPS1 = 1, ADPS0 = 1
